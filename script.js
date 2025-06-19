@@ -76,7 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
       "UI/UX Designer",
       "Web Developer",
       "Creative Thinker",
-      "Graphic Artist",
       "Problem Solver"
     ],
     typeSpeed: 50,

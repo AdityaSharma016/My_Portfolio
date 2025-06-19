@@ -87,27 +87,47 @@ section#about {
   margin-top: 1rem;
   font-size: 1.05rem;
 }
-#typed-output {
-  color: #a855f7;
-  font-weight: bold;
-  font-size: 2.5rem;
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem; /* Adds space between buttons */
+  flex-wrap: wrap;
 }
 
-
+/* Common Button Styling */
 .cta-btn {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: 35px  ;
   padding: 0.8rem 2rem;
-  background: #b388ff;
-  color: #000;
   font-weight: 600;
   border-radius: 5px;
-  transition: background 0.3s;
+  transition: background 0.3s ease;
+  text-decoration: none;
 }
 
-.cta-btn:hover {
+/* See My Work Button */
+.cta-btn.work-btn {
+  margin-right: 20px;
+  background: #b388ff;
+  color: #000;  
+}
+
+.cta-btn.work-btn:hover {
   background: #a16cff;
 }
+
+/* My Resume Button */
+.cta-btn.resume-btn {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #b388ff;
+}
+
+.cta-btn.resume-btn:hover {
+  background-color: #6b479c;
+  color: #fff;
+}
+
 
 .hero-img {
   flex: 1;
@@ -127,6 +147,23 @@ section#about {
 .hero-img img:hover {
   transform: scale(1.03);
 }
+
+#typed-output {
+  font-size: 2rem; /* Adjust this value as you like */
+  font-weight: bold;
+  color: #b388ff;
+}
+#typed-output::after {
+  content: '|';
+  animation: blink 1s infinite;
+  margin-left: 5px;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
 
 /* Skills Section */
 #skills {
@@ -260,6 +297,23 @@ section#about {
   height: 200px;
   object-fit: cover;
 }
+
+.project-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 8px 16px;
+  background-color: #a16cff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #b388ff;
+}
+
 
 .card-content {
   padding: 1rem;
