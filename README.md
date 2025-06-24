@@ -35,6 +35,10 @@ This project showcases my work as a **Graphic Designer**, **UI/UX Enthusiast**, 
 - Design Tools: Photoshop, Illustrator, Figma, Canva
 
 ---
+## 📄 License
+
+This portfolio is open-sourced under the [MIT License](./LICENSE). Feel free to use it with attribution.
+---
 
 ## 📂 Folder Structure
 
@@ -48,3 +52,4 @@ This project showcases my work as a **Graphic Designer**, **UI/UX Enthusiast**, 
 ├── pdf/
 │   └── Aditya_Sharma_Resume.pdf
 └── README.md
+
