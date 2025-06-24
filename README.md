@@ -7,7 +7,7 @@ This project showcases my work as a **Graphic Designer**, **UI/UX Enthusiast**, 
 
 ## 🚀 Live Preview
 
-👉 [Click here to view the live site](https://AdityaSharma016.github.io/My_Portfolio)
+👉 [Click here to view the live site](https://adityasharma016.github.io/My_Portfolio/)
 
 
 ---
